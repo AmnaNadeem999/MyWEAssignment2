@@ -1,0 +1,193 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('Images/dolphin.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-brand{
+    padding: 30px;
+    font-weight: bold;
+}
+.nav-item{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px 5px;
+}
+.container{
+    font-family: sans-serif;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container button{
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.container span{
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.9s;
+}
+.container button:hover span{
+    width: 100%;
+}
+.container button:hover {
+    border: none;
+}
+.profile-img{
+    margin-top: 50px;
+    border: 3px solid #009688;
+    border-radius: 100px;
+    float: left;
+    height: auto;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#009688;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  width: fit-content;
+  opacity: 0.8;
+}
+
+#myBtn:hover {
+    color: #000;
+  background-color:#58e6d7;
+}
+.inner{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #009688;
+    opacity: 0.9;
+    border-radius: 50px;
+    width: 125%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills p{
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: black;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: grey;
+}
+.progress-bar{
+    text-align: center;
+    color: #fff;
+    border-radius: 16px;
+    background: #000 !important;
+}
+.service{
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('Images/dolphin.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service img{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #009688;
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+.service img:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 6px 6px #a0a4a7;
+}
+.userbox img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 200px;
+    width: 250px;
+    border: 2px solid #009688;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.userbox img:hover{
+transform: scale(1.1);
+}
+.userbox h1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    /* font-size: 50px; */
+}
+.userbox p{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+  }
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #55ACEE;
+    color: white;
+  }
